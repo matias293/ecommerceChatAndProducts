@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= pageTitle %></title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/forms.css">
+    <link rel="stylesheet" href="/css/auth.css">
+</head>
+  <body>
+      <main>
+    <form class="login-form" action="/signup" method="POST" >
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input  
+                type="username" 
+                name="username"
+                id="username"
+                >
+            </div>
+            <div class="form-control">
+                <label for="contraseña">Contraseña</label>
+                <input  
+                type="password" 
+                name="contraseña"
+                id="contraseña"
+                >
+            </div>
+            
+            <button class="btn" type="submit">Login</button>
+        </form>
+       
+    </main>
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>
